@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { siteConfig } from "@/../config/site";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +14,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        style={
+          {
+            "--color-primary": siteConfig.colors.primary,
+            "--color-primary-hover": siteConfig.colors.primaryHover,
+            "--color-secondary": siteConfig.colors.secondary,
+            "--color-accent": siteConfig.colors.accent,
+            "--color-background": siteConfig.colors.background,
+            "--color-text": siteConfig.colors.text,
+          } as React.CSSProperties
+        }
+      >
+        {children}
+      </body>
     </html>
   );
 }
