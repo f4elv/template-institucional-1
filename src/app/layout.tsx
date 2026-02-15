@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { siteConfig } from "@/../config/site";
+import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Create Next App",
