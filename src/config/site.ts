@@ -1,14 +1,14 @@
 import { SiteConfig } from "../types/site";
 
 export const siteConfig: SiteConfig = {
-  businessName: "Name of business",
-  businessType: "Tipe of business",
+  businessName: "Name of the business",
+  businessType: "Tipe of the business",
   tagline: "Slogan or tagline of the business",
   description:
     "Description of the business, its values and what it offers to customers.",
 
   colors: {
-    primary: "#FF5733", // primary color in hex or rgb
+    primary: "#00f00f", // primary color in hex or rgb
     primaryHover: "#E04A2A", // primary hover color in hex or rgb
     secondary: "#FF0800", // secondary color in hex or rgb
     background: "#FFFFFF", // background color in hex or rgb
@@ -19,7 +19,6 @@ export const siteConfig: SiteConfig = {
   social: {
     instagram: "link of instagram",
     facebook: "link of facebook",
-    whatsapp: "link of whatsapp",
   },
 
   contact: {

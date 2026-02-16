@@ -10,7 +10,6 @@ export interface SiteColors {
 export interface Social {
   instagram: string;
   facebook: string;
-  whatsapp: string;
 }
 
 export interface Contact {

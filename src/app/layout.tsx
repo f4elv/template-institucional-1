@@ -15,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        className="bg-stone-700"
         style={
           {
             "--color-primary": siteConfig.colors.primary,
