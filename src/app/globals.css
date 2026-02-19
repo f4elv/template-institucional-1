@@ -8,16 +8,8 @@
   --color-text: var(--color-text);
 }
 
-.animate-fade-in-1 {
-  animation: fadeIn 1s ease-in-out;
-}
-
-.animate-fade-in-2 {
-  animation: fadeIn 1.5s ease-in-out;
-}
-
-.animate-fade-in-3 {
-  animation: fadeIn 2s ease-in-out;
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
 }
 
 @keyframes fadeIn {
