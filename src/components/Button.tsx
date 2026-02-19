@@ -13,8 +13,9 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 
     const variantClasses = {
       primary: "bg-primary hover:bg-primary/80 hover:scale-105 duration-300",
-      secondary: "bg-secondary",
-      transparent: "transition-all hover:scale-105 hover:shadow-lg",
+      secondary:
+        "bg-secondary hover:bg-secondary/80 hover:scale-105 duration-300",
+      transparent: "hover:scale-105 hover:shadow-lg duration-300",
     };
 
     return (

@@ -59,6 +59,7 @@ export interface CTA {
 export interface SiteConfig {
   businessName: string;
   businessType: string;
+  businessLogo: string;
   tagline: string;
   description: string;
 

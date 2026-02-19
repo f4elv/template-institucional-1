@@ -73,9 +73,17 @@ export default function Header() {
               rel="noopener noreferrer"
               className="ml-6 font-extrabold"
             >
-              <Button variant="primary">Agendar </Button>
+              <Button variant="primary">CTA</Button>
             </a>
           </nav>
+          <a
+            href={`https://wa.me/${siteConfig.contact.phoneRaw}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="md:hidden ml-6 font-extrabold"
+          >
+            <Button variant="primary">CTA</Button>
+          </a>
         </div>
       </div>
     </header>

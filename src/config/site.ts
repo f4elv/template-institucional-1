@@ -3,12 +3,13 @@ import { SiteConfig } from "../types/site";
 export const siteConfig: SiteConfig = {
   businessName: "Name of the business",
   businessType: "Tipe of the business",
+  businessLogo: "link of the business logo",
   tagline: "Slogan or tagline of the business",
   description:
     "Description of the business, its values and what it offers to customers.",
 
   colors: {
-    primary: "#00f00f", // primary color in hex or rgb
+    primary: "#FFFF00", // primary color in hex or rgb
     primaryHover: "#E04A2A", // primary hover color in hex or rgb
     secondary: "#FF0800", // secondary color in hex or rgb
     background: "#FFFFFF", // background color in hex or rgb
@@ -39,7 +40,8 @@ export const siteConfig: SiteConfig = {
   hero: {
     title: "Hero section title",
     subtitle: "Hero section subtitle",
-    image: "link of the hero image",
+    image:
+      "https://images.unsplash.com/photo-1457794355224-e92bb76cec4c?q=80&w=1225&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     primaryButton: "text for the primary button in the hero section",
     secondaryButton: "text for the secondary button in the hero section",
   },
