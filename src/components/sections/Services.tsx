@@ -5,7 +5,7 @@ import { Reveal } from "../Reveal";
 
 export default function Services() {
   return (
-    <section id="services" className="bg-stone-50 py-20">
+    <section id="services" className="bg-stone-100 py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
