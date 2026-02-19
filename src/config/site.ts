@@ -78,6 +78,18 @@ export const siteConfig: SiteConfig = {
       title: "Benefit 1",
       description: "Description of benefit 1",
     },
+    {
+      title: "Benefit 2",
+      description: "Description of benefit 2",
+    },
+    {
+      title: "Benefit 3",
+      description: "Description of benefit 3",
+    },
+    {
+      title: "Benefit 4",
+      description: "Description of benefit 4",
+    },
   ],
 
   about: {
