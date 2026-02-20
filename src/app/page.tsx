@@ -4,6 +4,7 @@ import Services from "@/components/sections/Services";
 import Benefits from "@/components/sections/Benefits";
 import About from "@/components/sections/About";
 import Gallery from "@/components/sections/Gallery";
+import CTA from "@/components/sections/CTA";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <About />
         <Services />
         <Gallery />
+        <CTA />
       </main>
     </>
   );
