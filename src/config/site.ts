@@ -71,6 +71,18 @@ export const siteConfig: SiteConfig = {
       description: "Description of product 4",
       price: "Price of product 4",
     },
+    {
+      id: 5,
+      title: "Product 5",
+      description: "Description of product 5",
+      price: "Price of product 5",
+    },
+    {
+      id: 6,
+      title: "Product 6",
+      description: "Description of product 6",
+      price: "Price of product 6",
+    },
   ],
 
   benefits: [
@@ -99,9 +111,12 @@ export const siteConfig: SiteConfig = {
   },
 
   gallery: [
-    "link of gallery image 1",
-    "link of gallery image 2",
-    "link of gallery image 3",
+    "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1621607512214-68297480165e?w=800&h=600&fit=crop",
   ],
 
   cta: {

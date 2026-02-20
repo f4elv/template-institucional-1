@@ -28,7 +28,7 @@ export function Reveal({ children, delay = 0, className = "" }: RevealProps) {
       },
       {
         threshold: 0,
-        rootMargin: "0px 0px -40% 0px",
+        rootMargin: "0px 0px -10% 0px",
       },
     );
 

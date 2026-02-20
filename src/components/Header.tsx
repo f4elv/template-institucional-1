@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { siteConfig } from "@/config/site";
 
-import { Button } from "./Button";
+import { Button } from "@/components/Button";
 
 import { scrolltoSection, scrollToTop } from "@/lib/utils";
 

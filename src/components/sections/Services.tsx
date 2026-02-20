@@ -1,7 +1,7 @@
 "use client";
 
 import { siteConfig } from "../../config/site";
-import { Reveal } from "../Reveal";
+import { Reveal } from "@/components/Reveal";
 
 export default function Services() {
   return (
@@ -10,12 +10,12 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <Reveal>
-            <h2 className="text-3xl font-bold">Our Products</h2>
+            <h2 className="text-3xl font-bold">Our Services</h2>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="text-stone-700 mt-4 max-w-2xl mx-auto">
-              Discover our range of high-quality products designed to meet your
+              Discover our range of high-quality services designed to meet your
               needs and exceed your expectations.
             </p>
           </Reveal>

@@ -1,4 +1,5 @@
 import { siteConfig } from "@/config/site";
+import { Reveal } from "@/components/Reveal";
 
 export default function Benefits() {
   const icons = [
@@ -67,41 +68,47 @@ export default function Benefits() {
     <section className="py-20 bg-stone-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-            Why Choose Us?
-          </h2>
-          <p className="text-lg text-stone-700 max-w-2xl mx-auto">
-            We offer the best experience in{" "}
-            {siteConfig.businessType.toLowerCase()} with quality and
-            professionalism
-          </p>
-        </div>
+        <Reveal>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
+              Why Choose Us?
+            </h2>
+          </div>
+          <div className="text-center mb-16">
+            <p className="text-lg text-stone-700 max-w-2xl mx-auto">
+              We offer the best experience in{" "}
+              {siteConfig.businessType.toLowerCase()} with quality and
+              professionalism
+            </p>
+          </div>
+        </Reveal>
 
         {/* Benefits Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {siteConfig.benefits.map((benefit, index) => (
-            <div
-              key={index}
-              className="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group"
-            >
-              {/* Icon */}
+        <Reveal delay={0.35}>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {siteConfig.benefits.map((benefit, index) => (
               <div
-                className={`text-${siteConfig.colors.primary} mb-6 group-hover:scale-110 transition-transform duration-300`}
+                key={index}
+                className="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group"
               >
-                {icons[index]}
-              </div>
+                {/* Icon */}
+                <div
+                  className={`text-${siteConfig.colors.primary} mb-6 group-hover:scale-110 transition-transform duration-300`}
+                >
+                  {icons[index]}
+                </div>
 
-              {/* Content */}
-              <h3 className="text-xl font-bold text-slate-800 mb-3">
-                {benefit.title}
-              </h3>
-              <p className="text-slate-600 leading-relaxed">
-                {benefit.description}
-              </p>
-            </div>
-          ))}
-        </div>
+                {/* Content */}
+                <h3 className="text-xl font-bold text-slate-800 mb-3">
+                  {benefit.title}
+                </h3>
+                <p className="text-slate-600 leading-relaxed">
+                  {benefit.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </Reveal>
       </div>
     </section>
   );
