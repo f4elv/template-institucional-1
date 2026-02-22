@@ -15,7 +15,7 @@ export interface Social {
 export interface Contact {
   phone: string;
   phoneRaw: string;
-  adress: string;
+  address: string;
   city: string;
 }
 

@@ -5,6 +5,7 @@ import Benefits from "@/components/sections/Benefits";
 import About from "@/components/sections/About";
 import Gallery from "@/components/sections/Gallery";
 import CTA from "@/components/sections/CTA";
+import Location from "@/components/sections/Location";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Services />
         <Gallery />
         <CTA />
+        <Location />
       </main>
     </>
   );

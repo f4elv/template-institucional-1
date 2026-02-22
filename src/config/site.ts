@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   contact: {
     phone: "formatted phone number for display",
     phoneRaw: "raw phone number for whatsapp link",
-    adress: "street address of the business",
+    address: "street address of the business",
     city: "city where the business is located",
   },
 
