@@ -5,7 +5,7 @@ import { siteConfig } from "@/config/site";
 
 import { Button } from "@/components/Button";
 
-import { scrolltoSection, scrollToTop } from "@/lib/utils";
+import { scrollToSection, scrollToTop } from "@/lib/utils";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -41,7 +41,7 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-4 font-medium">
             <Button
               variant="transparent"
-              onClick={() => scrolltoSection("services")}
+              onClick={() => scrollToSection("services")}
               className={`${isScrolled ? "text-black" : "text-white"}`}
             >
               Services
@@ -49,21 +49,21 @@ export default function Header() {
             <Button
               variant="transparent"
               className={`${isScrolled ? "text-black" : "text-white"}`}
-              onClick={() => scrolltoSection("gallery")}
+              onClick={() => scrollToSection("gallery")}
             >
               Gallery
             </Button>
             <Button
               variant="transparent"
               className={`${isScrolled ? "text-black" : "text-white"}`}
-              onClick={() => scrolltoSection("about")}
+              onClick={() => scrollToSection("about")}
             >
               About
             </Button>
             <Button
               variant="transparent"
               className={`${isScrolled ? "text-black" : "text-white"}`}
-              onClick={() => scrolltoSection("contact")}
+              onClick={() => scrollToSection("contact")}
             >
               Contact
             </Button>

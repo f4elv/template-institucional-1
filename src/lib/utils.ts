@@ -1,4 +1,4 @@
-export const scrolltoSection = (id: string) => {
+export const scrollToSection = (id: string) => {
   const element = document.getElementById(id);
   if (element) {
     const offset = 80;

@@ -6,6 +6,7 @@ import About from "@/components/sections/About";
 import Gallery from "@/components/sections/Gallery";
 import CTA from "@/components/sections/CTA";
 import Location from "@/components/sections/Location";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <CTA />
         <Location />
       </main>
+      <Footer />
     </>
   );
 }

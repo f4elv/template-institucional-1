@@ -1,7 +1,7 @@
 "use client";
 
 import { siteConfig } from "@/config/site";
-import { scrolltoSection } from "@/lib/utils";
+import { scrollToSection } from "@/lib/utils";
 import { Button } from "@/components/Button";
 import { Reveal } from "@/components/Reveal";
 import Image from "next/image";
@@ -65,7 +65,7 @@ export default function Hero() {
               <Reveal delay={0.6}>
                 <Button
                   onClick={() => {
-                    scrolltoSection("services");
+                    scrollToSection("services");
                   }}
                   variant="secondary"
                   className="font-bold"
