@@ -4,7 +4,7 @@ import { Button } from "@/components/Button";
 
 export default function About() {
   return (
-    <section id="sobre" className="py-20 bg-stone-50">
+    <section id="about" className="py-20 bg-stone-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Image */}

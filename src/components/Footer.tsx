@@ -40,7 +40,7 @@ export default function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection("sobre")}
+                  onClick={() => scrollToSection("about")}
                   className="text-stone-400 hover:text-white transition-colors"
                 >
                   Sobre
@@ -48,7 +48,7 @@ export default function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection("servicos")}
+                  onClick={() => scrollToSection("services")}
                   className="text-stone-400 hover:text-white transition-colors"
                 >
                   Serviços
@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection("galeria")}
+                  onClick={() => scrollToSection("gallery")}
                   className="text-stone-400 hover:text-white transition-colors"
                 >
                   Galeria
@@ -64,10 +64,10 @@ export default function Footer() {
               </li>
               <li>
                 <button
-                  onClick={() => scrollToSection("localizacao")}
+                  onClick={() => scrollToSection("contact")}
                   className="text-stone-400 hover:text-white transition-colors"
                 >
-                  Localização
+                  Contato
                 </button>
               </li>
             </ul>

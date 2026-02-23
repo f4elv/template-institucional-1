@@ -5,7 +5,7 @@ import { Reveal } from "@/components/Reveal";
 
 export default function Gallery() {
   return (
-    <section id="galeria" className="py-20 bg-stone-50">
+    <section id="gallery" className="py-20 bg-stone-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <Reveal>

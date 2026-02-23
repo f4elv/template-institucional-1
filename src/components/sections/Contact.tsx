@@ -3,7 +3,7 @@ import { Button } from "@/components/Button";
 
 export default function Location() {
   return (
-    <section id="location" className="py-20 bg-stone-50">
+    <section id="contact" className="py-20 bg-stone-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Header section*/}
         <div className="text-center mb-16">

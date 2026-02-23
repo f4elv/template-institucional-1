@@ -5,7 +5,7 @@ import Benefits from "@/components/sections/Benefits";
 import About from "@/components/sections/About";
 import Gallery from "@/components/sections/Gallery";
 import CTA from "@/components/sections/CTA";
-import Location from "@/components/sections/Location";
+import Contact from "@/components/sections/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
         <Services />
         <Gallery />
         <CTA />
-        <Location />
+        <Contact />
       </main>
       <Footer />
     </>

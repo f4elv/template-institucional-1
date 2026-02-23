@@ -30,7 +30,7 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+          {/* Logo / Name of the Business */}
           <button
             onClick={scrollToTop}
             className={`text-2xl font-extrabold transition-colors duration-300 cursor-pointer ${isScrolled ? "text-black" : "text-white"}`}
@@ -41,31 +41,32 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-4 font-medium">
             <Button
               variant="transparent"
+              className={`${isScrolled ? "text-black" : "text-white"}`}
+              onClick={() => scrollToSection("about")}
+            >
+              Sobre nós
+            </Button>
+            <Button
+              variant="transparent"
               onClick={() => scrollToSection("services")}
               className={`${isScrolled ? "text-black" : "text-white"}`}
             >
-              Services
+              Serviços
             </Button>
             <Button
               variant="transparent"
               className={`${isScrolled ? "text-black" : "text-white"}`}
               onClick={() => scrollToSection("gallery")}
             >
-              Gallery
+              Galeria
             </Button>
-            <Button
-              variant="transparent"
-              className={`${isScrolled ? "text-black" : "text-white"}`}
-              onClick={() => scrollToSection("about")}
-            >
-              About
-            </Button>
+
             <Button
               variant="transparent"
               className={`${isScrolled ? "text-black" : "text-white"}`}
               onClick={() => scrollToSection("contact")}
             >
-              Contact
+              Contato
             </Button>
             <a
               href={`https://wa.me/${siteConfig.contact.phoneRaw}`}
@@ -76,6 +77,7 @@ export default function Header() {
               <Button variant="primary">CTA</Button>
             </a>
           </nav>
+          {/* Mobile CTA */}
           <a
             href={`https://wa.me/${siteConfig.contact.phoneRaw}`}
             target="_blank"
