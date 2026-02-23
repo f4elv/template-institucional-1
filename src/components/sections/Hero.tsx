@@ -42,7 +42,7 @@ export default function Hero() {
             </Reveal>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row pt-4">
               <Reveal delay={0.4}>
                 <a
                   href={`https://wa.me/${siteConfig.contact.phoneRaw}`}
