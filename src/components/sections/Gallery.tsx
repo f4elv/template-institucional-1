@@ -10,9 +10,11 @@ export default function Gallery() {
         {/* Section Header */}
         <Reveal>
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Gallery</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              Nossa Galeria
+            </h2>
             <p className="text-lg text-stone-700 max-w-2xl mx-auto">
-              See some of our work and our environment
+              Veja alguns dos nossos trabalhos e ambiente
             </p>
           </div>
         </Reveal>
@@ -40,7 +42,8 @@ export default function Gallery() {
         {/* Bottom Text */}
         <div className="text-center mt-12">
           <p className="text-stone-700 mb-6">
-            We are proud of our work and our environment. Follow us on Instagram
+            Nós estamos orgulhosos do nosso trabalho e ambiente. Siga-nos no
+            Instagram
           </p>
           <a
             href={`${siteConfig.social.instagram}`}

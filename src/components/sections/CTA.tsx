@@ -31,7 +31,7 @@ export default function CTA() {
         {/* Contact Info */}
         <div className="mt-10 pt-10 border-t border-white/20">
           <p className="text-stone-400 mb-2">
-            Or send a message to us on instagram:
+            Ou entre em contato conosco pelo instagram
           </p>
           <Button variant="transparent">
             <a

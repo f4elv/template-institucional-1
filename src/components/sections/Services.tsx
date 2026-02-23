@@ -10,13 +10,13 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <Reveal>
-            <h2 className="text-3xl font-bold">Our Services</h2>
+            <h2 className="text-3xl font-bold">Nossos Serviços</h2>
           </Reveal>
 
           <Reveal delay={0.2}>
             <p className="text-stone-700 mt-4 max-w-2xl mx-auto">
-              Discover our range of high-quality services designed to meet your
-              needs and exceed your expectations.
+              Descubra nossa gama de serviços de alta qualidade projetados para
+              atender às suas necessidades e superar suas expectativas.
             </p>
           </Reveal>
         </div>

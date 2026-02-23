@@ -8,11 +8,11 @@ export default function Location() {
         {/* Header section*/}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Location and Contact Information
+            Localização e Contato
           </h2>
           <p className="text-lg text-stone-700">
-            Find us at our convenient location and get in touch with us through
-            the following contact details. We look forward to hearing from you!
+            Entre em contato conosco para agendar uma visita ou tirar suas
+            dúvidas. Estamos ansiosos para atendê-lo!
           </p>
         </div>
 

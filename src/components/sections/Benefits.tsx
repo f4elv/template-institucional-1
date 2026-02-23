@@ -71,14 +71,14 @@ export default function Benefits() {
         <Reveal>
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-              Why Choose Us?
+              Por que escolher a {siteConfig.businessName}?
             </h2>
           </div>
           <div className="text-center mb-16">
             <p className="text-lg text-stone-700 max-w-2xl mx-auto">
-              We offer the best experience in{" "}
-              {siteConfig.businessType.toLowerCase()} with quality and
-              professionalism
+              Nós oferecemos a melhor experiência em{" "}
+              {siteConfig.businessType.toLowerCase()} com qualidade e
+              profissionalismo
             </p>
           </div>
         </Reveal>
