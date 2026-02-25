@@ -2,24 +2,24 @@
 
 Template customizável profissional e moderno para sites institucionais desenvolvido com Next.js, TypeScript e TailwindCSS.
 
-## 🚀 Tecnologias
+## Tecnologias
 
 - **Next.js 14** (App Router)
 - **TypeScript**
 - **TailwindCSS**
 - **Google Fonts (Inter)**
 
-## 📋 Características
+## Características
 
-- ✅ Totalmente responsivo (mobile-first)
-- ✅ Animações suaves com CSS/Tailwind
-- ✅ SEO otimizado
-- ✅ Performance otimizada
-- ✅ Código limpo e organizado
-- ✅ Fácil customização
-- ✅ Sem dependências externas de animação
+-  Totalmente responsivo (mobile-first)
+-  Animações suaves com CSS/Tailwind
+-  SEO otimizado
+-  Performance otimizada
+-  Código limpo e organizado
+-  Fácil customização
+-  Sem dependências externas de animação
 
-## 🎨 Seções Incluídas
+## Seções Incluídas
 
 1. **Navbar** - Menu fixo com scroll effect
 2. **Hero** - Seção principal com CTA
@@ -31,7 +31,7 @@ Template customizável profissional e moderno para sites institucionais desenvol
 8. **Location** - Informações de contato e mapa
 9. **Footer** - Links e redes sociais
 
-## 🛠️ Instalação
+## Instalação
 
 ```bash
 # Instalar dependências
@@ -47,7 +47,7 @@ npm run build
 npm start
 ```
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 src
@@ -78,7 +78,7 @@ src
  ┃ ┗ site.ts
 ```
 
-## 🔧 Comandos Úteis
+## Comandos Úteis
 
 ```bash
 # Desenvolvimento
@@ -94,7 +94,7 @@ npm start
 npm run lint
 ```
 
-## 📱 Responsividade
+## Responsividade
 
 O template é totalmente responsivo com breakpoints:
 
@@ -105,11 +105,11 @@ O template é totalmente responsivo com breakpoints:
 
 Outras opções: Netlify, Cloudflare Pages, AWS Amplify
 
-## 📝 Licença
+## Licença
 
 Livre para uso pessoal e comercial.
 
-## 🤝 Suporte
+## Suporte
 
 Para dúvidas ou sugestões, abra uma issue no repositório.
 
